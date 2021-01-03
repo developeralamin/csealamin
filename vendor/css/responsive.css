@@ -1,0 +1,154 @@
+/* screen size 992px */
+/* screen size 992px */
+@media all and (max-width:992px){
+	.about_right{
+		flex:0 0 88%;
+		margin-top:6%;
+	}
+	.port_img{
+		width:32%;
+	}
+	.all_service{
+		flex-direction:column;
+	}
+	.single_service{
+		padding-bottom:18px;
+	}
+}
+/* screen size 768px */
+/* screen size 768px */
+@media all and (max-width:768px){
+	.about_right{
+		flex:0 0 110%;
+	}
+	.port_head h2{
+		font-size:34px;
+	}
+	.port_head p{
+		width:93%;
+	}
+	.all_port ul li a {
+      font-size:17px;
+    }
+		.port_img{
+		width:49%;
+	}
+}
+
+/* screen size 628px */
+/* screen size 628px */
+@media all and (max-width:628px){
+  .all_port ul {
+     flex-direction:column;
+	 text-align:center;
+    }
+	 .all_port ul li{
+		 border-bottom:none;
+		 padding-bottom:10px;
+	 }
+}
+
+/* screen size 575px */
+/* screen size 575px */
+@media all and (max-width:575px){
+.container {
+    width: 94%;
+}
+  .descrp p{
+	   width:108%;
+   }
+  
+.title_head h2 {
+     font-size: 30px;
+   }
+.port_head h2 {
+    font-size: 23px;
+}
+.skill_head h2{
+	font-size:25px;
+}
+}
+
+/* screen size 480px */
+/* screen size 480px */
+@media all and (max-width:480px){
+	.navbar-brand{
+		font-size:20px;
+	}
+   .alamin_img img {
+    max-width: 264px;
+    width: 211px;
+    height: 200px;
+    border: 4px solid #fff;
+  }
+  .title_head h2 {
+     font-size: 17px;
+   }
+   .title_head p{
+	   font-size:14px;
+   }
+   .port_head h2 {
+    font-size: 15px;
+	 padding: 0 3px;
+   }
+.skill_head h2{
+	border:none;
+	padding:0 0px;
+}
+.slik_name h2 {
+    font-size: 20px;
+}
+.slik_name p {
+    font-size: 14px;
+    color: #000;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+.service_head h2{
+	font-size:30px;
+	border:none;
+}
+h3{
+	font-size:13px;
+}
+.social_icon ul{
+	flex-direction:column;
+	text-align:center;
+}
+.social_icon ul li {
+  padding-bottom:14px;
+}
+.free_head h2{
+	font-size:27px
+}
+.free_head h3{
+	font-size:27px
+}
+}
+/* screen size 320px */
+/* screen size 320px */
+@media all and (max-width:320px){
+	.alamin_img img {
+    max-width: 152px;
+    width: 140px;
+    height: 200px;
+    border: 4px solid #fff;
+}
+.descrp p {
+    width: 77%;
+}
+.personal ul li a {
+	font-size:13px;
+}
+   .port_head h2 {
+    font-size:20px;
+	 padding: 0 0px;
+	 border:none;
+   }
+.free_head h2 {
+    font-size: 21px;
+}
+}
+
+
